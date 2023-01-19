@@ -1,0 +1,123 @@
+/* Селектор */
+
+body{
+    background-color: #FFFFFF;
+    
+}
+/* Header */
+
+header{
+    background-color: #E7E9FC;
+}
+.title{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    
+}
+a {
+  text-decoration: none;
+}
+.links{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;;  
+    color: #2E2F42; 
+}
+.mail{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;  
+    color: #2E2F42; 
+}
+.number{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #2E2F42; 
+}
+/* Hero section */
+.caption{
+    font-weight: 700;  
+    color: #FFFFFF;
+    font-size: 56px;
+}
+.hero-sec{
+    background-color: #2E2F42;
+}
+button{
+    background-color: #4D5AE5;
+    
+}
+.button{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+/* First section */
+
+.first-sec{
+    background-color: #E7E9FC;
+}
+.pharagraphs{
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.features{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+/* Second section */
+
+.text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;  
+    color: #2E2F42;
+    width: 323px;
+    height: 40px;
+}
+
+/* Third section */
+
+.third-sec{
+    background-color: #F4F4FD;
+    
+}
+.text-1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+}
+.subjects{
+    color: #2E2F42;
+}
+/* Footer */
+footer{
+    background-color: #2E2F42;;
+}
+.desc{
+    color: #E7E9FC;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.names{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #2E2F42;
+    }
+.footer-1{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    
+}
