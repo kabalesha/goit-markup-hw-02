@@ -9,6 +9,7 @@ body{
 
 header{
     background-color: #E7E9FC;
+
 }
 .title{
     font-size: 18px;
@@ -48,13 +49,20 @@ a {
 }
 button{
     background-color: #4D5AE5;
-    
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+
 }
 .button{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    
     
 }
 /* First section */
@@ -102,7 +110,9 @@ button{
 }
 /* Footer */
 footer{
-    background-color: #2E2F42;;
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 310px;
 }
 .desc{
     color: #E7E9FC;
@@ -122,3 +132,30 @@ footer{
     line-height: 21px;
     
 }
+
+/* Portfolio */
+.buttons-list{
+    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4D5AE5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;padding: 12px 24px;
+    cursor: pointer;
+    
+}
+.button-portf{
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+}
+.icons{
+    margin-bottom: 120px;
+}
+/*Footer portf*/
+
