@@ -1,8 +1,8 @@
 /* Селектор */
 
 body{
-    background-color: #FFFFFF;
-    font-family: 'Roboto';
+    background-color: white;
+    font-family: 'Roboto' ;
                     
 }
 /* Header */
@@ -15,10 +15,20 @@ header{
     font-size: 18px;
     font-weight: 800;
     line-height: 24px;
+    font-family: 'Raleway';
+    font-style: 'ExtraBold';
+    color: #4D5AE5;
     
+}
+.studio-letter{
+    color: #2E2F42;
+
 }
 a {
   text-decoration: none;
+}
+p{
+    font-family: 'Roboto';
 }
 .links{
     font-size: 16px;
@@ -26,11 +36,18 @@ a {
     font-weight: 500;;  
     color: #2E2F42; 
 }
+.links :hover {
+    color: blue;
+  }
 .mail{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;  
-    color: #2E2F42; 
+    color: #2E2F42;
+}
+.mail:hover,
+.mail:focus {
+ color: #404BBF;
 }
 .number{
     font-size: 16px;
@@ -38,33 +55,41 @@ a {
     font-weight: 400;
     color: #2E2F42; 
 }
+.number:hover,
+.number:focus {
+ color: #404BBF;
+}
 /* Hero section */
 .caption{
     font-weight: 700;  
     color: #FFFFFF;
     font-size: 56px;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 60px;
 }
 .hero-sec{
     background-color: #2E2F42;
 }
 button{
-    background-color: #4D5AE5;
     cursor: pointer;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
-    gap: 10px;
+    gap: 10px;  
 
 }
 .button{
+    background-color: #4D5AE5;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+ }
     
     
-}
+    
 /* First section */
 
 .first-sec{
@@ -120,17 +145,25 @@ footer{
     line-height: 24px;
     font-weight: 400;
 }
+.desc:hover,
+.desc:focus{
+    color: #404BBF;
+    cursor: pointer;
+}
 .names{
-        font-size: 20px;
-        line-height: 24px;
-        font-weight: 500;
-        color: #2E2F42;
-    }
-.footer-1{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #2E2F42;
+}
+footer{
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    
+    font-family: 'Raleway';
+}
+.studio-letter-2{
+    color: #E7E9FC;
 }
 
 /* Portfolio */
@@ -143,12 +176,12 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;padding: 12px 24px;
-    cursor: pointer;
+    
     
 }
 .button-portf{
+    background-color:#4D5AE5;
     color: #FFFFFF;
-    cursor: pointer;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -157,5 +190,7 @@ footer{
 .icons{
     margin-bottom: 120px;
 }
-/*Footer portf*/
 
+ul{
+    list-style: none;
+}
