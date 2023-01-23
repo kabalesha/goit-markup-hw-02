@@ -18,11 +18,12 @@ header{
     font-family: 'Raleway';
     font-style: 'ExtraBold';
     color: #4D5AE5;
+    letter-spacing: 0.03em;
     
 }
 .studio-letter{
     color: #2E2F42;
-
+    letter-spacing: 0.03em;
 }
 a {
   text-decoration: none;
@@ -34,7 +35,8 @@ p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;;  
-    color: #2E2F42; 
+    color: #2E2F42;
+    letter-spacing: 0.02em; 
 }
 .links :hover {
     color: blue;
@@ -44,6 +46,7 @@ p{
     line-height: 24px;
     font-weight: 400;  
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 .mail:hover,
 .mail:focus {
@@ -54,6 +57,7 @@ p{
     line-height: 24px;
     font-weight: 400;
     color: #2E2F42; 
+    letter-spacing: 0.02em;
 }
 .number:hover,
 .number:focus {
@@ -65,8 +69,8 @@ p{
     color: #FFFFFF;
     font-size: 56px;
     font-style: Bold;
-    font-size: 56px;
     line-height: 60px;
+    letter-spacing: 0.02em
 }
 .hero-sec{
     background-color: #2E2F42;
@@ -86,6 +90,7 @@ button{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    letter-spacing: 0.04em
  }
     
     
@@ -100,11 +105,13 @@ button{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
 }
 .features{
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 /* Second section */
 
@@ -114,8 +121,7 @@ button{
     font-size: 36px;
     line-height: 40px;  
     color: #2E2F42;
-    width: 323px;
-    height: 40px;
+    letter-spacing: 0.02em;
 }
 
 /* Third section */
@@ -129,6 +135,7 @@ button{
     font-size: 36px;
     line-height: 40px;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 .subjects{
     color: #2E2F42;
@@ -144,6 +151,7 @@ footer{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    letter-spacing: 0.02em;
 }
 .desc:hover,
 .desc:focus{
@@ -155,6 +163,7 @@ footer{
     line-height: 24px;
     font-weight: 500;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 footer{
     font-weight: 800;
@@ -175,7 +184,9 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;padding: 12px 24px;
+    align-items: center;
+    padding: 12px 24px;
+    letter-spacing: 0.04em;
     
     
 }
@@ -186,6 +197,7 @@ footer{
     flex-direction: row;
     align-items: flex-start;
     padding: 12px 24px;
+    letter-spacing: 0.04em;
 }
 .icons{
     margin-bottom: 120px;
