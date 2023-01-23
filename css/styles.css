@@ -137,7 +137,7 @@ button{
 /* First section */
 
 .first-sec{
-    background-color: var(--other-bg-cl);
+    background-color: var(--primary-bg-cl);
 }
 .pharagraphs{
     color:var(--secondary-txt-cl);
