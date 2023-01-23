@@ -25,17 +25,33 @@
 
 
 body{
+   
+    background-color: var(--primary-bg-cl);
+    font-style: normal;
+    font-family: "Helvetica", sans-serif;
+    color: var(--primary-txt-cl);
+    letter-spacing: 0.02em;
+    font-family: 'Roboto', 'Raleway';
+
     
-    font-family: 'Roboto';
-                    
+
 }
 
 a{
     text-decoration: none;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: var(--primary-txt-cl);
+    font-style: normal;
+    line-height:calc(24/16);
+    
 }
 
 /* Header */
-
+button{
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
 header{
    background-color: var(--primary-bg-cl);
 }
@@ -50,50 +66,47 @@ header{
 }
 .studio-letter{
     color: var(--primary-txt-cl);
-    letter-spacing: 0.03em;
+    
 }
 
-.link{
-    text-decoration: none;
+
+.link:hover,
+.link:focus{
+    color: var(--accent-txt-cl);
 }
+
 p{
     font-family: 'Roboto';
 }
-.links{
-    font-size: 16px;
-    line-height:calc(24/16);
-    font-weight: 500;;  
-    color: var(--primary-txt-cl);
-    letter-spacing: 0.02em; 
-}
-.links :hover {
+
+
+.links :hover,
+.link:focus{
     color: var(--primary-other-cl);
   }
-.mail{
+.address{
     font-size: 16px;
     line-height:calc(24/16);
-    font-weight: 400;  
     color: var(--secondary-txt-cl);
-    letter-spacing: 0.02em;
+
+   
 }
-.mail:hover,
-.mail:focus {
+.address:hover,
+.address:focus {
  color: var(--primary-other-cl);
 }
-.number{
-    font-size: 16px;
-    line-height: calc(24/16);
-    font-weight: 400;
-    color: var(--secondary-txt-cl);
-    letter-spacing: 0.02em;
-}
+
+.links{
+    font-family: 'Roboto';
+    font-weight: 500;
+    }
 .number:hover,
 .number:focus {
     color:var(--primary-other-cl);
 }
 /* Hero section */
 .caption{
-    font-weight: 700;  
+     
     color: var(--other-txt-cl);
     font-size: 56px;
     line-height: calc(60/56);
@@ -104,34 +117,19 @@ p{
 .hero-sec{
     background-color: var(--secondary-bg-cl);
 }
-button{
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;  
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-.button{
+.hero-button{
     background-color: var(--accent-bg-cl);
     color: var(--other-txt-cl);
     font-size: 16px;
-    font-weight: 500;
     line-height: calc(24/16);
-    letter-spacing: 0.04em;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 16px 32px;
-    gap: 10px;
-    
-    
- }
-    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color: var(--primary-other-cl);
+} 
     
     
 /* First section */
@@ -141,7 +139,6 @@ button{
 }
 .pharagraphs{
     color:var(--secondary-txt-cl);
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
@@ -149,18 +146,17 @@ button{
 .features{
     font-size: 20px;
     line-height: calc(24/20);
-    font-weight: 500;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 /* Second section */
 
 .text{
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;  
+    line-height: calc(40/36);  
     color:var(--primary-txt-cl);
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* Third section */
@@ -170,76 +166,66 @@ button{
     
 }
 .text-1{
-    font-weight: 700;
     font-size: 36px;
     line-height: calc(40/36);
     color: var(--primary-txt-cl);
     letter-spacing: 0.02em;
+    text-align: center;
+}
+.names{
+    font-size: 20px;
+    line-height: calc(24/20);
+    color: var(--primary-txt-cl);
+    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 .subjects{
     color: var(--primary-txt-cl);
 }
 /* Footer */
+
 footer{
+    
+    font-size: 18px;
+    line-height: calc(21/18);
     background-color: var(--secondary-bg-cl);
-    width: 1440px;
-    height: 310px;
 }
 .desc{
     color: var(--secondary-other-cl);
     font-size: 16px;
     line-height: calc(24/16);
-    font-weight: 400;
     letter-spacing: 0.02em;
+    
+    
 }
-.desc:hover,
-.desc:focus{
-    color: #404BBF;
-    cursor: pointer;
-}
-.names{
-    font-size: 20px;
-    line-height: calc(24/20);
-    font-weight: 500;
-    color: var(--primary-txt-cl);
-    letter-spacing: 0.02em;
-}
-footer{
-    font-weight: 800;
-    font-size: 18px;
-    line-height: calc(21/18);
-    font-family: 'Raleway';
-}
+
+
 .studio-letter-2{
     color: var(--other-cl);
 }
 
 /* Portfolio */
+
 .buttons-list{
-    
     font-weight: 500;
     font-size: 16px;
     color: var(--accent-txt-cl);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 12px 24px;
-    letter-spacing: 0.04em;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    
 }
+
 .button-portf{
     background-color:var(--accent-bg-cl);
     color: var(--other-txt-cl);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 12px 24px;
     letter-spacing: 0.04em;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+.button-portf:hover,
+.button-portf:focus{
+    background-color: var(--primary-other-cl);
+
 }
 .icons{
     margin-bottom: 120px;
