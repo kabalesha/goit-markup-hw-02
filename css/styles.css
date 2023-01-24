@@ -29,22 +29,11 @@ body{
     color: var(--primary-txt-cl);
     letter-spacing: 0.02em;
     font-family: 'Roboto', sans-serif;
-
 }
-
 a{
     text-decoration: none;
-    line-height:calc(24/16);
 }
-
 /* Header */
-button{
-    cursor: pointer;
-    letter-spacing: 0.04em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;    
-}
 header{
    background-color: var(--primary-bg-cl);
 }
@@ -54,6 +43,7 @@ header{
     font-family: 'Raleway', sans-serif;
     color: var(--accent-txt-cl);
     letter-spacing: 0.03em;
+    text-decoration: none;
     
 }
 .studio-letter{
@@ -67,13 +57,12 @@ header{
     color: var(--accent-txt-cl);
 }
 
-.links :hover,
-.link:focus{
-    color: var(--primary-other-cl);
-  }
+
 .address{
     color: var(--secondary-txt-cl);
-
+    text-decoration: none;
+    font-style: normal;
+    line-height: calc(24/16);
    
 }
 .address:hover,
@@ -81,13 +70,14 @@ header{
  color: var(--primary-other-cl);
 }
 
+.list{
+    list-style: none;
+}
 .links{
     font-weight: 500;
     color: var(--primary-txt-cl);
-}
-.number:hover,
-.number:focus {
-    color:var(--primary-other-cl);
+    text-decoration: none;
+    line-height:calc(24/16);
 }
 /* Hero section */
 .caption{
@@ -100,15 +90,19 @@ header{
     
 }
 .hero-sec{
+    
     background-color: var(--secondary-bg-cl);
 }
 .hero-button{
     background-color: var(--accent-bg-cl);
     color: var(--other-txt-cl);
     line-height: calc(24/16);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
     padding: 16px 32px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -176,8 +170,6 @@ footer{
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
-    
-    
 }
 
 
@@ -188,21 +180,21 @@ footer{
 /* Portfolio */
 
 .buttons-list{
-    color: var(--accent-txt-cl);
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    background-color: var(--other-cl);
+    color: var(--accent-bg-cl);
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;  
+    cursor: pointer;  
 }
 
-.button-portf{
-    background-color:var(--accent-bg-cl);
+.buttons-list:hover,
+.buttons-list:focus{
     color: var(--other-txt-cl);
-    padding: 12px 24px;
-    letter-spacing: 0.04em;
-    border-radius: 4px;
-}
-.button-portf:hover,
-.button-portf:focus{
     background-color: var(--primary-other-cl);
 
 }
@@ -213,10 +205,8 @@ footer{
     letter-spacing: 0.02em;
     font-weight: 500;
 }
+
 .icons{
     margin-bottom: 120px;
 }
 
-ul{
-    list-style: none;
-}
