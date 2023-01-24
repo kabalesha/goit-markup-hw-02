@@ -72,8 +72,6 @@ header{
     color: var(--primary-other-cl);
   }
 .address{
-    font-size: 16px;
-    line-height:calc(24/16);
     color: var(--secondary-txt-cl);
 
    
@@ -159,7 +157,6 @@ header{
 .names{
     font-size: 20px;
     line-height: calc(24/20);
-    color: var(--primary-txt-cl);
     letter-spacing: 0.02em;
     font-weight: 500;
 }
@@ -208,6 +205,13 @@ footer{
 .button-portf:focus{
     background-color: var(--primary-other-cl);
 
+}
+.activities{
+    font-size: 20px;
+    line-height: calc(24/20);
+    color: var(--primary-txt-cl);
+    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 .icons{
     margin-bottom: 120px;
