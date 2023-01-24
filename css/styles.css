@@ -25,41 +25,33 @@
 
 
 body{
-   
     background-color: var(--primary-bg-cl);
-    font-style: normal;
-    font-family: "Helvetica", sans-serif;
     color: var(--primary-txt-cl);
     letter-spacing: 0.02em;
-    font-family: 'Roboto', 'Raleway';
-
-    
+    font-family: 'Roboto', sans-serif;
 
 }
 
 a{
     text-decoration: none;
-    letter-spacing: 0.02em;
-    font-size: 16px;
-    color: var(--primary-txt-cl);
-    font-style: normal;
     line-height:calc(24/16);
-    
 }
 
 /* Header */
 button{
     cursor: pointer;
     letter-spacing: 0.04em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;    
 }
 header{
    background-color: var(--primary-bg-cl);
 }
-.title{
+.logo{
     font-size: 18px;
-    font-weight: 800;
     line-height: calc(24/18);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     color: var(--accent-txt-cl);
     letter-spacing: 0.03em;
     
@@ -74,11 +66,6 @@ header{
 .link:focus{
     color: var(--accent-txt-cl);
 }
-
-p{
-    font-family: 'Roboto';
-}
-
 
 .links :hover,
 .link:focus{
@@ -98,6 +85,7 @@ p{
 
 .links{
     font-weight: 500;
+    color: var(--primary-txt-cl);
 }
 .number:hover,
 .number:focus {
@@ -119,7 +107,6 @@ p{
 .hero-button{
     background-color: var(--accent-bg-cl);
     color: var(--other-txt-cl);
-    font-size: 16px;
     line-height: calc(24/16);
     padding: 16px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -138,9 +125,7 @@ p{
 }
 .pharagraphs{
     color:var(--secondary-txt-cl);
-    font-size: 16px;
     line-height: calc(24/16);
-    letter-spacing: 0.02em;
 }
 .features{
     font-size: 20px;
@@ -206,7 +191,6 @@ footer{
 /* Portfolio */
 
 .buttons-list{
-    font-size: 16px;
     color: var(--accent-txt-cl);
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
