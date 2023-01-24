@@ -21,9 +21,6 @@
 
 }
 
-/* Селектор */
-
-
 body{
     background-color: var(--primary-bg-cl);
     color: var(--primary-txt-cl);
@@ -63,7 +60,6 @@ header{
     text-decoration: none;
     font-style: normal;
     line-height: calc(24/16);
-   
 }
 .address:hover,
 .address:focus {
