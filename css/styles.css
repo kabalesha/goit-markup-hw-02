@@ -27,9 +27,6 @@ body{
     letter-spacing: 0.02em;
     font-family: 'Roboto', sans-serif;
 }
-a{
-    text-decoration: none;
-}
 /* Header */
 header{
    background-color: var(--primary-bg-cl);
@@ -65,7 +62,9 @@ header{
 .address:focus {
  color: var(--primary-other-cl);
 }
-
+.link{
+    text-decoration: none;
+}
 .list{
     list-style: none;
 }
